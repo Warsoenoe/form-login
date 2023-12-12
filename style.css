@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(log.jpg);
+}
+
+.container {
+    width: 275px;
+    height: 400px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #beccc4;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+.log {
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.us label{
+    margin-left: 35px;
+    text-align: justify;
+    color: #f9f2f2;
+}
+
+.us input {
+    width: 200px;
+    padding:5px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #a6f77b;
+    font-size: 14px;
+}
+
+.psw label{
+    margin-left: 35px;
+    text-align: justify;
+    color: #f9f2f2;
+}
+
+.psw input {
+    width: 200px;
+    padding:5px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #a6f77b;
+    font-size: 14px;
+}
+
+.forget a {
+    text-decoration: none;
+    text-align: right;
+    font-size: 14px;
+    margin-left: 125px;
+    color: #61cbee;
+}
+
+.forget a:hover{
+    color: #b33828;
+}
+
+#submit-btn {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42px;
+    margin: 0 63px;
+    margin-top: 30px;
+    transition: 0.25s;
+    width: 150px;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+}
+
+.sub p {
+    text-align: center;
+    font-size: 14px;
+    margin: 15px;
+    color: #f9f2f2;
+}
+
+.sub p a {
+    color:#61cbee;
+    text-decoration: none;
+}
+.sub p a:hover {
+    color: #b33828;
+}
